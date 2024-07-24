@@ -8,15 +8,18 @@ body {
 }
 
 header {
-    padding: 35px;
+    padding: 20px;
     text-align: center;
     background: green;
-    position: relative;
+    width: 100%;
+    position: fixed;
+    height: 100px;
 }
 
 nav {
     display: flex;
-    background: rgb(0, 179, 255);
+    background: rgb(70, 101, 185);
+    width: 100%;
 }
 
 nav a {
@@ -27,6 +30,7 @@ nav a {
 main {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 100px;
 }
 
 aside {
@@ -50,5 +54,5 @@ section {
 
 footer {
     padding: 20px;
-    background: rgb(0, 179, 255);
+    background: rgb(70, 101, 185);
 }
