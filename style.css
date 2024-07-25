@@ -1,36 +1,35 @@
 * {
-    box-sizing: border-box;
 }
 
 body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
-    padding: 20px;
     text-align: center;
     background: green;
     width: 100%;
     position: fixed;
-    height: 100px;
 }
 
 nav {
     display: flex;
     background: rgb(70, 101, 185);
-    width: 100%;
 }
 
 nav a {
     color: black;
-    padding: 20px 30px;
+    font-size: 16px;
+    padding: 20px;
 }
 
 main {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 100px;
+    margin-top: 130px;
 }
 
 aside {
@@ -43,6 +42,10 @@ section {
     flex: 3;
     background: rgb(189, 189, 189);
     Text-Align: center;
+}
+
+p{
+    text-align: left;
 }
 
 .img {
