@@ -1,6 +1,3 @@
-* {
-}
-
 body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
@@ -30,6 +27,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     margin-top: 130px;
+    height: 800px;
 }
 
 aside {
@@ -44,8 +42,11 @@ section {
     Text-Align: center;
 }
 
-p{
+p {
     text-align: left;
+    text-indent: 20px;
+    padding: 20px;
+    line-height: 1.5;
 }
 
 .img {
@@ -56,6 +57,29 @@ p{
 }
 
 footer {
-    padding: 20px;
-    background: rgb(70, 101, 185);
+    padding-left: 5px;
+    background-color: rgb(70, 101, 185);
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+}
+
+form {
+    background-color: rgb(189, 189, 189);
+    padding: 5px;
+}
+
+input, 
+textarea {
+    margin: 5px;
+}
+
+label {
+    display: block;
+}
+
+button {
+    margin: 5px;
 }
